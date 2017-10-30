@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export AMAZING_ASSOCIATE_TAG="xxxxxx-11"
+export AMAZING_ACCESS_KEY="TESTTESTTESTTESTTEST"
+export AMAZING_SECRET_KEY="TESTTESTESTTESTTEST+TESTTSET+123+TESTTES"
+./bin/ItemLookup -v -ItemId=B01M1JY7YC,B003F0YJDG -ResponseGroup=EditorialReview
+#./my-app

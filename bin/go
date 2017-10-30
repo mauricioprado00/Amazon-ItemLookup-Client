@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# usage go [params]
+
+docker run -it --rm --name my-running-app -v $(pwd)/.go-src:/go/src -v $(pwd)/:/go/src/my-app -w /go/src/my-app golang:1.8 go $@
+
+# save it with:
+# curl https://gist.githubusercontent.com/mauricioprado00/8ac58efebd6b7e94d043438cd9a1dbc6/raw/docker-go > /usr/local/bin/go
+# chmod +x /usr/local/bin/go
